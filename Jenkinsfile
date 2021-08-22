@@ -14,7 +14,7 @@ pipeline {
         }
         stage("Build") {
             steps {
-                sh "./gradlew shadowJar";
+                sh "./gradlew build";
             }
         }
         stage("Publish") {
