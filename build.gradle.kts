@@ -6,17 +6,10 @@ plugins {
 }
 
 group = "net.neverstopgaming"
-version = "1.0.0"
+version = "1.0.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven {
-        url = uri("https://repo.neverstopgaming.net/repository/maven-internal/")
-        credentials {
-            username = "dev"
-            password = "KDXQ4LuP2kYSMQe3S09OUhRBdN65El1VTvJKW7YHFUpIR8ZbALGsX"
-        }
-    }
 }
 
 java {
